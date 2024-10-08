@@ -1,5 +1,6 @@
 import React from "react";
 import CardHomePage from "../Componentes/CardHomePage";
+import Footer from "../Componentes/Footer";
 
 const dadosCards = [
     {
@@ -26,7 +27,6 @@ function Home() {
     return ( 
         <section>
                 <CardHomePage dadosCards={dadosCards} />
-
         </section>
     );
 }
