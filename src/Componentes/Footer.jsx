@@ -5,7 +5,7 @@ import { GiCheckeredFlag } from "react-icons/gi";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-gray-900 text-white py-8 w-full relative">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between">
           {/* Seção sobre */}
@@ -42,7 +42,7 @@ const Footer = () => {
             </p>
             <p className="flex items-center mb-2">
               <span className="material-symbols-outlined text-lg mr-2">mail</span>
-              suporte@oceanguardian.com.br
+              suporte@emotiongrid.com.br
             </p>
             <p className="flex items-center">
               <span className="material-symbols-outlined text-lg mr-2">road</span>
